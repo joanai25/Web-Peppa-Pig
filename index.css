@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'peppa_pigmedium';
+    src: url('fuentes/peppa_pig-webfont.woff2') format('woff2'),
+         url('fuentes/peppa_pig-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.titulo{
+    float:left;
+    
+}
+
+.menu{
+    background-color: #E92AE0;
+    height: 200px ;
+    
+    
+}
+
+.nombre{
+    margin-top: 75px;
+    text-align: center;
+    font-family: "peppa_pigmedium";
+    color: white;
+    font-size: 65px;
+
+}
+
+.menu-fijo{
+    margin-left: 1225px;
+    background-color: blue;
+    border: 1px solid white;
+    height: 60px;
+    z-index: 1;
+    position: fixed;
+    width: 300px;
+    
+
+}
+
+.menu-fijo img{
+    width: 50px; height: 50px;
+}
+
+.mitad{
+    background: url("pattern-02-dark-blue.png") repeat center center fixed;
+}
+
+.personaje{
+    text-align: center;
+    
+    font-family: "peppa_pigmedium";
+    color: white;
+    font-size: 35px;
+    position: static;
+}
+
+.pie{
+    background: url("footer-banner.png") no-repeat  center;
+    height: 670px;
+}
+
+.politica{
+    text-align: center;
+    color: white;
+    margin-left: 75x;
+    margin-top: 300px;
+}
+
+.to-the-top {
+    float: right;
+    margin-top: 150px;
+    width: 108px;
+    height: 235px;
+}
